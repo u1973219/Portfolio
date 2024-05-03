@@ -2,28 +2,40 @@
 <html>
 <head>
 	<title>Nil Comasolivas Portfolio</title>
-    <link rel="stylesheet" href="estil.css">
+  <link rel="stylesheet" href="./CSS/estil.css">
+
 
 	
 </head>
 <body>
 
 <!-- Navegacio -->
-<nav class="navegar">
-   
-  <a href="index.html" class="w3-button w3-bar-item">Home</a>
-  <a href="profile.html" class="w3-button w3-bar-item">Profile</a>
-  <a href="#Experience" class="w3-button w3-bar-item">Experience</a>
-  <a href="#Projects" class="w3-button w3-bar-item">Projects</a>
+<nav class="navegation">
+  <a href="index.html" class="item bar">Home</a>
+  <a href="./HTML/profile.html" class="item bar">Profile</a>
+  <a href="#Experience" class="item bar">Experience</a>
+  <a href="#Projects" class="item bar">Projects</a>
 </nav>
 
-<div class="titols">
+<div class="headers">
     <h1>Home</h1>
   </div>
+  
+  <div class = "pdfChoose">
+      <object class = "pdf" data="./CV/CV CAT - NilComasòlivasDeLaTorre.pdf" width="800" height="500"></object>
+    <form id="languageSelection">
+      <label for="lang">Choose a language:</label>
+      <select name="lang" id="lang">
+        <option value="CV CAT - NilComasòlivasDeLaTorre.pdf">CAT</option>
+        <option value="CV ESP - NilComasòlivasDeLaTorre.pdf">ESP</option>
+        <option value="CV ENG - NilComasòlivasDeLaTorre.pdf">ENG</option>
+      </select>
+      <br><br>
+      <input type="submit" value="Submit">
+    </form>
 
-  <p class="sample">This webpage is made to serve as a Curriculum Vitae and a portfolio at the same time. It is, a presentation to what my skills are.</p>
-
-
+    <script src="JS/functions.js"></script>
+ </div>
 
 </body>
 </html>

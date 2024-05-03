@@ -3,13 +3,13 @@ body {
     font-family: Arial, Helvetica, sans-serif;
   }
   
-  .navegar {
+  .navegation {
     overflow: hidden;
-    background-color: #423939;
+    background-color: rgb(18, 141, 212);
     text-align: center;
   }
   
-  .navegar a {
+  .navegation a {
     display: inline-block;
     color: #f2f2f2;
     text-align: center;
@@ -18,13 +18,13 @@ body {
     font-size: 17px;
   }
   
-  .navegar a:hover {
-    background-color: #ddd;
-    color: rgb(161, 66, 29);
+  .navegation a:hover {
+    background-color:rgb(14, 107, 161);
+    color: rgb(255, 255, 255);
   }
   
-  .navegar a.active {
-    background-color: #2114dd;
+  .navegation a.active {
+    background-color: #847dee;
     color: white;
   }
   
@@ -51,12 +51,12 @@ body {
     font-style: normal;
     font-weight: 600;
   }
-  .titols h1 {
+  .headers h1 {
     text-align: center;
     text-transform: uppercase;
     padding-bottom: 5px;
   }
-  .titols h1:before {
+  .headers h1:before {
     width: 28px;
     height: 5px;
     display: block;
@@ -65,9 +65,9 @@ body {
     bottom: 3px;
     left: 50%;
     margin-left: -14px;
-    background-color: #b80000;
+    background-color: #051dfa;
   }
-  .titols h1:after {
+  .headers h1:after {
     width: 100px;
     height: 1px;
     display: block;
@@ -76,7 +76,7 @@ body {
     margin-top: 25px;
     left: 50%;
     margin-left: -50px;
-    background-color: #b80000;
+    background-color: #2c2d72;
   }
   
 
@@ -84,13 +84,43 @@ body {
     font-family: 'Georgia', sans-serif;
     font-size: 2rem;
     font-style: oblique 23deg;
-    line-height: 1.6; /* Ajusta el espaciado entre líneas para mejorar la legibilidad */
-    margin: 2em 0; /* Reduje el margen vertical */
-    color: #333; /* Color de texto más oscuro para una mejor legibilidad */
+    line-height: 1.6; 
+    margin: 2em 0; 
+    color: #333; 
     font-size: 14px;
   }
   
-  /* Agregué un estilo para los párrafos que siguen al primer párrafo */
   .sample + p {
-    margin-top: 1em; /* Espaciado entre párrafos */
+    margin-top: 1em; 
   }
+
+  .pdf,
+  html,
+  body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+  }
+
+
+.pdf{
+    height: 100%;
+    margin-left: 22em;
+    padding: 0;
+}
+
+.pdfChoose{
+
+  display: flex;
+  align-items: flex-start;
+  height: 100%;
+
+}
+
+#languageSelection{
+
+  margin: 1em;
+  
+
+}
+
